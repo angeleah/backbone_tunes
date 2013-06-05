@@ -45,6 +45,11 @@ describe("Album", function () {
         it("identifies the last track", function() {
             expect(this.album.isLastTrack(1)).toBeTruthy();
         });
+
+        it("returns the url for a track", function() {
+            expect(this.album.trackUrlAtIndex(0)).toEqual('/music/Album A Track A.mp3');
+        });
     });
+
 
 });
