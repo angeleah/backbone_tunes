@@ -5,8 +5,6 @@ This demo loads only a simple model and view. Just poking around with backbone.
 
 USAGE
 -----
-+ Run:
-  -rake server
-+ Visit the webserver at:
-  - http://localhost:9292
++ Type $ rake server
++ Open a browser window and navigate to: http://localhost:9292
 
